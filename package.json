@@ -1,7 +1,7 @@
 {
-  "title": "Glob action for [ChainyJS](http://chainy.bevry.me)",
+  "title": "Glob action for [ChainyJS](http://chainyjs.org)",
   "name": "chainy-plugin-glob",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Chainy action that replaces the chain's data with a glob of it",
   "homepage": "https://github.com/chainy-plugins/glob",
   "keywords": [
@@ -30,7 +30,9 @@
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
-  "contributors": [],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
   "bugs": {
     "url": "https://github.com/chainy-plugins/glob/issues"
   },
@@ -42,18 +44,18 @@
     "node": ">=0.4"
   },
   "dependencies": {
-    "glob": "^4.0.0"
+    "glob": "^4.0.2"
   },
   "peerDependencies": {
-    "chainy-core": "*"
+    "chainy-core": "1"
   },
   "devDependencies": {
     "chainy-plugin-set": "*",
-    "chainy-core": "*",
-    "joe": "~1.4.0",
+    "chainy-core": "1",
+    "joe": "~1.5.0",
     "joe-reporter-console": "~1.2.1",
     "chai": "~1.9.1",
-    "projectz": "~0.3.11"
+    "projectz": "~0.3.15"
   },
   "directories": {
     "test": "test"

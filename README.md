@@ -1,7 +1,7 @@
 
 <!-- TITLE/ -->
 
-# Glob action for [ChainyJS](http://chainy.bevry.me)
+# Glob action for [ChainyJS](http://chainyjs.org)
 
 <!-- /TITLE -->
 
@@ -26,8 +26,9 @@
 Chainy action that replaces the chain's data with a [glob](https://github.com/isaacs/node-glob) of it
 
 ``` javascript
-require('chainy-core').create().require('set glob log')
+require('chainy').create().require('set glob log')
 	.set(__dirname+'/*.json')
+	.glob()
 	.log()  // [__dirname+'/package.json']
 ```
 
@@ -45,7 +46,7 @@ require('chainy-core').create().require('set glob log')
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-glob')`
 - Install: `npm install --save chainy-plugin-glob`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-glob@0.1.0`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-glob@1.0.0`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-glob')`
@@ -93,8 +94,11 @@ No sponsors yet! Will you be the first?
 
 ### Contributors
 
-No contributors yet! Will you be the first?
-[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/chainy-plugins/chainy-plugin-glob/blob/master/CONTRIBUTING.md#files)
+These amazing people have contributed code to this project:
+
+- [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/chainy-plugins/glob/commits?author=balupton)
+
+[Become a contributor!](https://github.com/chainy-plugins/chainy-plugin-glob/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 
